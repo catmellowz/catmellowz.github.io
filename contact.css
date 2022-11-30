@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.body {
+    background-color: rgb(224, 223, 198);
+    font-family: monospace;
+}
+
+.navbar {
+display: flex;
+background-color: rgb(233, 212, 185);
+}
+.navbar > a {
+    margin: 8px;
+    color: rgb(100, 127, 88);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.infobig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    font-size: 40px;
+    margin: 20px;
+    /* text-align: center; */
+    color: rgb(100, 127, 88);
+}
+
+.form {
+    font-size: 20px;
+    padding: 50px;
+    border: 2px solid rgb(100, 127, 88);
+    margin: 100px 100px ;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 100px;
+    width: 450px;
+}
+
+.form > input {
+    width: 80%;
+    margin-top: 12px;
+   
+}
+
+.form > select {
+    width: 80%;
+}
+
+.form > textarea {
+    width: 80%;
+}
